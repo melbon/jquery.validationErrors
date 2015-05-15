@@ -1,0 +1,23 @@
+{
+  "name": "jquery.validationErrors",
+  "main": "jquery.validationErrors.js",
+  "version": "1.1.0",
+  "homepage": "https://github.com/melbon/jquery.validationErrors",
+  "authors": [
+    "melbon <mario@vidov.it>"
+  ],
+  "description": "This plugin prevents native browser error messages and shows custom ones. Also you can use \"pattern\" attribute on input fields with regex validation without any additional libraries.",
+  "keywords": [
+    "validate",
+    "validation",
+    "errors"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
