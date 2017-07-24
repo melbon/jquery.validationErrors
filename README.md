@@ -14,33 +14,33 @@ bower install validation-errors
 $(selector).validationErrors();
 ```
 ## Configuration
-#####type
+#### type
 set error types 
 ```javascript
 default: "inline"
 options: "inline" / "block"
 ```
-#####position
+#### position
 set errors list  position
 note: only used when type: "block"
 ```javascript
 default: "after"
 options: "after" / "before"
 ```
-#####keypress
+#### keypress
 validate input on keypress event
 note: only used when type: "inline"
 ```javascript
 default: false
 options: boolean / true or false
 ```
-#####ajaxPost
+#### ajaxPost
 is form will be submited via ajax
 ```javascript
 default: true
 options: boolean / true or false
 ```
-#####onSubmit
+#### onSubmit
 will be executed when the form is filling correctly and be submited
 ```javascript
 default: {}
